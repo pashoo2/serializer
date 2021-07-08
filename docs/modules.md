@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[src/types.ts:1](https://github.com/pashoo2/serializer/blob/01e8d50/src/types.ts#L1)
+[src/types.ts:1](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L1)
 
 ## Functions
 
@@ -76,7 +76,7 @@
 
 #### Defined in
 
-[src/serializer-class.utils.ts:82](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L82)
+[src/serializer-class.utils.ts:82](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L82)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[src/serializer-class.utils.ts:91](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L91)
+[src/serializer-class.utils.ts:91](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L91)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[src/serializer-class.utils.ts:53](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L53)
+[src/serializer-class.utils.ts:53](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L53)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[src/serializer-class.utils.ts:19](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L19)
+[src/serializer-class.utils.ts:19](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L19)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[src/serializer-class.utils.ts:40](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L40)
+[src/serializer-class.utils.ts:40](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L40)
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 #### Defined in
 
-[src/serializer-class.utils.ts:29](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L29)
+[src/serializer-class.utils.ts:29](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L29)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-[src/serializer-class.utils.ts:70](https://github.com/pashoo2/serializer/blob/01e8d50/src/serializer-class.utils.ts#L70)
+[src/serializer-class.utils.ts:70](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L70)

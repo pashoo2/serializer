@@ -55,7 +55,7 @@ export function serializerClassUtilFunctionParserSandboxedDefault(
 ): (...args: any[]) => any {
   // eslint-disable-next-line no-eval
   try {
-    const interpreterForFunction = new Sval({ecmaVer: 5, sandBox: true});
+    const interpreterForFunction = new Sval({ecmaVer: 6, sandBox: true});
     interpreterForFunction.run(`exports.func = ${functionSerialized}`);
     const functionCreatedFromString = interpreterForFunction.exports.func;
     if (!functionCreatedFromString) {
