@@ -71,7 +71,7 @@ parsing and serialization.
 
 #### Defined in
 
-src/serializer-class.ts:53
+[src/serializer-class.ts:52](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L52)
 
 ## Properties
 
@@ -91,7 +91,7 @@ src/serializer-class.ts:53
 
 #### Defined in
 
-src/serializer-class.ts:43
+[src/serializer-class.ts:42](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L42)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:51
+[src/serializer-class.ts:50](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L50)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:47
+[src/serializer-class.ts:46](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L46)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:35
+[src/serializer-class.ts:34](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L34)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:39
+[src/serializer-class.ts:38](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L38)
 
 ## Methods
 
@@ -174,7 +174,7 @@ src/serializer-class.ts:39
 
 #### Defined in
 
-src/serializer-class.ts:113
+[src/serializer-class.ts:112](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L112)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:96
+[src/serializer-class.ts:95](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L95)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:103
+[src/serializer-class.ts:102](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L102)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:75
+[src/serializer-class.ts:74](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L74)
 
 ___
 
@@ -245,7 +245,7 @@ Converts a JavaScript Object Notation (JSON) string into an object.
 
 #### Defined in
 
-src/serializer-class.ts:71
+[src/serializer-class.ts:70](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L70)
 
 ___
 
@@ -272,7 +272,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:83
+[src/serializer-class.ts:82](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L82)
 
 ___
 
@@ -286,7 +286,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:79
+[src/serializer-class.ts:78](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L78)
 
 ___
 
@@ -300,7 +300,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:109
+[src/serializer-class.ts:108](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L108)
 
 ___
 
@@ -346,7 +346,7 @@ Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 
 #### Defined in
 
-src/serializer-class.ts:67
+[src/serializer-class.ts:66](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L66)
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:62
+[src/serializer-class.ts:61](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L61)
 
 ___
 
@@ -394,4 +394,4 @@ ___
 
 #### Defined in
 
-src/serializer-class.ts:58
+[src/serializer-class.ts:57](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.ts#L57)

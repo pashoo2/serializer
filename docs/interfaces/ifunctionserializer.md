@@ -20,4 +20,4 @@
 
 #### Defined in
 
-src/types.ts:19
+[src/types.ts:19](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L19)

@@ -37,7 +37,7 @@
 
 #### Defined in
 
-src/types.ts:16
+[src/types.ts:16](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L16)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-src/types.ts:15
+[src/types.ts:15](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L15)

@@ -27,7 +27,7 @@
 
 - [serializerClassUtilCreateReplacerArgumentForJSONStringify](modules.md#serializerclassutilcreatereplacerargumentforjsonstringify)
 - [serializerClassUtilCreateReviverArgumentForJSONParse](modules.md#serializerclassutilcreatereviverargumentforjsonparse)
-- [serializerClassUtilFunctionParserDefault](modules.md#serializerclassutilfunctionparserdefault)
+- [serializerClassUtilFunctionParserSandboxedDefault](modules.md#serializerclassutilfunctionparsersandboxeddefault)
 - [serializerClassUtilFunctionSerializer](modules.md#serializerclassutilfunctionserializer)
 - [serializerClassUtilIsFunctionSerialziedDefault](modules.md#serializerclassutilisfunctionserialzieddefault)
 - [serializerClassUtilReplacerCallbackDefault](modules.md#serializerclassutilreplacercallbackdefault)
@@ -41,7 +41,7 @@
 
 #### Defined in
 
-src/types.ts:1
+[src/types.ts:1](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L1)
 
 ## Functions
 
@@ -76,7 +76,7 @@ src/types.ts:1
 
 #### Defined in
 
-src/serializer-class.utils.ts:78
+[src/serializer-class.utils.ts:82](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L82)
 
 ___
 
@@ -112,13 +112,13 @@ ___
 
 #### Defined in
 
-src/serializer-class.utils.ts:87
+[src/serializer-class.utils.ts:91](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L91)
 
 ___
 
-### serializerClassUtilFunctionParserDefault
+### serializerClassUtilFunctionParserSandboxedDefault
 
-▸ **serializerClassUtilFunctionParserDefault**(`functionSerialized`): (...`args`: `any`[]) => `any`
+▸ **serializerClassUtilFunctionParserSandboxedDefault**(`functionSerialized`): (...`args`: `any`[]) => `any`
 
 #### Parameters
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.utils.ts:50
+[src/serializer-class.utils.ts:53](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L53)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.utils.ts:16
+[src/serializer-class.utils.ts:19](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L19)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.utils.ts:37
+[src/serializer-class.utils.ts:40](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L40)
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 #### Defined in
 
-src/serializer-class.utils.ts:26
+[src/serializer-class.utils.ts:29](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L29)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-src/serializer-class.utils.ts:66
+[src/serializer-class.utils.ts:70](https://github.com/pashoo2/serializer/blob/3d29641/src/serializer-class.utils.ts#L70)

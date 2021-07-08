@@ -32,4 +32,4 @@
 
 #### Defined in
 
-src/types.ts:23
+[src/types.ts:23](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L23)

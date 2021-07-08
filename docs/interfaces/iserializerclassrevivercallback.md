@@ -25,4 +25,4 @@ Used to parse a value stringified earlier
 
 #### Defined in
 
-src/types.ts:53
+[src/types.ts:53](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L53)

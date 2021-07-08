@@ -1,5 +1,3 @@
-import {createFunctionFromSerializedFunction} from '@pashoo2/utils';
-
 import {
   ISerializerClassConstructorOptions,
   ISerializerClassReplacerCallback,
@@ -15,6 +13,7 @@ import {
   serializerClassUtilFunctionSerializer,
   serializerClassUtilReplacerCallbackDefault,
   serializerClassUtilCreateReplacerArgumentForJSONStringify,
+  serializerClassUtilFunctionParserSandboxedDefault,
 } from './serializer-class.utils';
 import {
   serializerClassUtilReviverCallbackDefault,
@@ -45,7 +44,7 @@ export class SerializerClass<T = any> implements ISerializer {
   }
 
   protected get _defaultFunctionSerializedParser(): IFunctionParser {
-    return createFunctionFromSerializedFunction;
+    return serializerClassUtilFunctionParserSandboxedDefault;
   }
 
   protected get _defaultFunctionReviverCallback(): ISerializerClassReviverCallback {

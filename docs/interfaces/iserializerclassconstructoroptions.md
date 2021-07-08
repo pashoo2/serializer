@@ -24,7 +24,7 @@ Will be used to parse a function serialized
 
 #### Defined in
 
-src/types.ts:92
+[src/types.ts:92](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L92)
 
 ___
 
@@ -39,7 +39,7 @@ serialized.
 
 #### Defined in
 
-src/types.ts:85
+[src/types.ts:85](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L85)
 
 ___
 
@@ -53,7 +53,7 @@ Will be used for functions serialization
 
 #### Defined in
 
-src/types.ts:69
+[src/types.ts:69](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L69)
 
 ___
 
@@ -68,7 +68,7 @@ called "replacer".
 
 #### Defined in
 
-src/types.ts:77
+[src/types.ts:77](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L77)
 
 ___
 
@@ -82,4 +82,4 @@ Should return a value parsed, in JSON.parse reviver callback
 
 #### Defined in
 
-src/types.ts:99
+[src/types.ts:99](https://github.com/pashoo2/serializer/blob/3d29641/src/types.ts#L99)
