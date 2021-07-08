@@ -24,4 +24,4 @@ Should return a value can be serialized with JSON.stringify
 
 #### Defined in
 
-src/types.ts:33
+[src/types.ts:33](https://github.com/pashoo2/serializer/blob/01e8d50/src/types.ts#L33)

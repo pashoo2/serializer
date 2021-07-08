@@ -5,12 +5,16 @@ describe('An utility class for data serialization and functions in particular', 
     expect(() => new SerializerClass()).not.toThrow();
   });
   it('Should serialize and parse data', () => {
+    const expectedGlobalValueName = 'expectedGlobalValueName';
+    const expectedGlobalValue = 'expectedGlobalValue';
+    (window as any)[expectedGlobalValueName] = expectedGlobalValue;
     const object = {
       a: 1,
       b: '2',
       c: null,
       d: undefined,
       e: () => {
+        (window as any)['expectedGlobalValueName'] = 'not_expectedGlobalValue';
         return 'eFunctionReturnedValueExpected';
       },
       f() {
@@ -30,7 +34,9 @@ describe('An utility class for data serialization and functions in particular', 
     );
     expect((parsedResult as any).e).toEqual(expect.any(Function));
     expect((parsedResult as any).f).toEqual(expect.any(Function));
+    expect((window as any)[expectedGlobalValueName]).toBe(expectedGlobalValue);
     expect((parsedResult as any).e()).toBe('eFunctionReturnedValueExpected');
     expect((parsedResult as any).f()).toBe('fFunctionReturnedValueExpected');
+    expect((window as any)[expectedGlobalValueName]).toBe(expectedGlobalValue);
   });
 });

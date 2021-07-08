@@ -22,4 +22,4 @@ Should return true is string is a function serialized with .toString()
 
 #### Defined in
 
-src/types.ts:43
+[src/types.ts:43](https://github.com/pashoo2/serializer/blob/01e8d50/src/types.ts#L43)

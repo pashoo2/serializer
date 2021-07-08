@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SerializerClass = void 0;
-var utils_1 = require("@pashoo2/utils");
 var serializer_class_utils_1 = require("./serializer-class.utils");
 var serializer_class_utils_2 = require("./serializer-class.utils");
 var serializer_class_utils_3 = require("./serializer-class.utils");
@@ -42,7 +41,7 @@ var SerializerClass = /** @class */ (function () {
     });
     Object.defineProperty(SerializerClass.prototype, "_defaultFunctionSerializedParser", {
         get: function () {
-            return utils_1.createFunctionFromSerializedFunction;
+            return serializer_class_utils_1.serializerClassUtilFunctionParserSandboxedDefault;
         },
         enumerable: false,
         configurable: true

@@ -1,6 +1,6 @@
 {
   "name": "@pashoo2/serializer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An utility class for data serialization with an ability to serialize functions",
   "main": "es/index.js",
   "types": "es/index.d.ts",
@@ -49,6 +49,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
+    "@types/estree": "0.0.50",
     "@types/jest": "^26.0.23",
     "@types/node": "^10.04.0",
     "babel-jest": "^27.0.6",
@@ -60,6 +61,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@pashoo2/utils": "0.0.1"
+    "@pashoo2/utils": "0.0.1",
+    "sval": "^0.4.8"
   }
 }

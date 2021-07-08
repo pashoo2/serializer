@@ -3,6 +3,9 @@ import {
   isNativeFunction,
   isNonArrowFunctionStringified,
 } from '@pashoo2/utils';
+import Sval from 'sval';
+
+//https://github.com/Siubaak/sval
 
 import {
   TSimpleTypes,
@@ -47,13 +50,14 @@ export function serializerClassUtilIsFunctionSerialziedDefault(
   return isFunctionAnyTypeStringified;
 }
 
-export function serializerClassUtilFunctionParserDefault(
+export function serializerClassUtilFunctionParserSandboxedDefault(
   functionSerialized: string
 ): (...args: any[]) => any {
   // eslint-disable-next-line no-eval
   try {
-    // TODO - ReDoS attacks and make it create function in a sandbox
-    const functionCreatedFromString = eval(`(${functionSerialized})`);
+    const interpreterForFunction = new Sval({ecmaVer: 5, sandBox: true});
+    interpreterForFunction.run(`exports.func = ${functionSerialized}`);
+    const functionCreatedFromString = interpreterForFunction.exports.func;
     if (!functionCreatedFromString) {
       throw new Error('Failed to create function by it body');
     }

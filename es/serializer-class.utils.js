@@ -1,7 +1,11 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.serializerClassUtilCreateReviverArgumentForJSONParse = exports.serializerClassUtilCreateReplacerArgumentForJSONStringify = exports.serializerClassUtilReviverCallbackDefault = exports.serializerClassUtilFunctionParserDefault = exports.serializerClassUtilIsFunctionSerialziedDefault = exports.serializerClassUtilReplacerCallbackDefault = exports.serializerClassUtilFunctionSerializer = void 0;
+exports.serializerClassUtilCreateReviverArgumentForJSONParse = exports.serializerClassUtilCreateReplacerArgumentForJSONStringify = exports.serializerClassUtilReviverCallbackDefault = exports.serializerClassUtilFunctionParserSandboxedDefault = exports.serializerClassUtilIsFunctionSerialziedDefault = exports.serializerClassUtilReplacerCallbackDefault = exports.serializerClassUtilFunctionSerializer = void 0;
 var utils_1 = require("@pashoo2/utils");
+var sval_1 = __importDefault(require("sval"));
 function serializerClassUtilFunctionSerializer(fn) {
     if (utils_1.isNativeFunction(fn)) {
         throw new Error('Function cannot be serialized');
@@ -27,11 +31,12 @@ function serializerClassUtilIsFunctionSerialziedDefault(value) {
     return isFunctionAnyTypeStringified;
 }
 exports.serializerClassUtilIsFunctionSerialziedDefault = serializerClassUtilIsFunctionSerialziedDefault;
-function serializerClassUtilFunctionParserDefault(functionSerialized) {
+function serializerClassUtilFunctionParserSandboxedDefault(functionSerialized) {
     // eslint-disable-next-line no-eval
     try {
-        // TODO - ReDoS attacks and make it create function in a sandbox
-        var functionCreatedFromString = eval("(" + functionSerialized + ")");
+        var interpreterForFunction = new sval_1.default({ ecmaVer: 5, sandBox: true });
+        interpreterForFunction.run("exports.func = " + functionSerialized);
+        var functionCreatedFromString = interpreterForFunction.exports.func;
         if (!functionCreatedFromString) {
             throw new Error('Failed to create function by it body');
         }
@@ -41,7 +46,7 @@ function serializerClassUtilFunctionParserDefault(functionSerialized) {
         throw new Error("Failed parse the function " + functionSerialized);
     }
 }
-exports.serializerClassUtilFunctionParserDefault = serializerClassUtilFunctionParserDefault;
+exports.serializerClassUtilFunctionParserSandboxedDefault = serializerClassUtilFunctionParserSandboxedDefault;
 function serializerClassUtilReviverCallbackDefault(key, value, functionSerializedChecker, functionParser) {
     if (functionSerializedChecker(value)) {
         return functionParser(value);
